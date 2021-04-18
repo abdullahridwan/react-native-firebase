@@ -1,16 +1,23 @@
 import * as firebase from 'firebase';
 import '@firebase/auth';
 import '@firebase/firestore';
+
+
 const firebaseConfig = {
-apiKey: 'YOUR_KEY_HERE_AIzaSyAOWH',
-authDomain: 'your-auth-domain-b1234.firebaseapp.com',
-databaseURL: 'https://your-database-name.firebaseio.com',
-projectId: 'your-project-id-1234',
-storageBucket: 'your-project-id-1234.appspot.com',
-messagingSenderId: '12345-insert-yourse',
-appId: 'insert yours: 1:1234:web:ee873bd1234c0deb7eba61ce',
+  apiKey: "AIzaSyAH_vJX97Gyd4k247sZjyZc8PUpyx_cOpM",
+  authDomain: "quickstart-1612920845787.firebaseapp.com",
+  projectId: "quickstart-1612920845787",
+  storageBucket: "quickstart-1612920845787.appspot.com",
+  messagingSenderId: "680522783963",
+  appId: "1:680522783963:web:7786fc116d61d0e845c0fe",
+  measurementId: "G-YN9G7XT9WP"
 };
+
 if (!firebase.apps.length) {
-firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 }
+
+
+
+
 export { firebase };
